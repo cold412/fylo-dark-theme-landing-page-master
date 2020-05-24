@@ -1,5 +1,14 @@
-import React from "react"
+import React from "react";
+import '../styles.scss'
 
-export default function Home() {
-  return <div>Hello world!</div>
+
+const index = () => {
+  return (
+    <div className="MainCont">
+
+
+      <h1>Test</h1>
+    </div>
+  )
 }
+export default index
