@@ -1,3 +1,19 @@
 @import '_var';
 
 
+.page1Cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin: 0 auto;
+    padding-top: 8rem;
+
+    img{
+        max-width: 100%;
+    }
+
+    .MainHeader{
+        padding-top: 5rem;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/maintext.scss'
 
 const MainText = (props) => {
     return (
