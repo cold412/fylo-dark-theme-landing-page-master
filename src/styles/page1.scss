@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
     margin: 0 auto;
     padding-top: 8rem;
 
@@ -15,5 +14,9 @@
 
     .MainHeader{
         padding-top: 5rem;
+    }
+
+    .buttonCont{
+        padding-top: 3rem;
     }
 }

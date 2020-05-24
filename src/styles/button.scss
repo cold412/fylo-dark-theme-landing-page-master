@@ -1,3 +1,16 @@
 @import '_var';
 
 
+.buttonContainer{
+    display: flex;
+    background-color: $Cyan;
+    min-width: 25rem;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    h3{
+        color: $White;
+        font-size: 2rem;
+    }
+}

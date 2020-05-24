@@ -1,0 +1,14 @@
+@import "../styles/_var";
+
+.MainCont{
+    .page1Cont{
+        width: 100vw;
+        background-image: url(../img/bg-curvy-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+        @include desktop{
+            background-size: cover;
+        }
+    }
+}

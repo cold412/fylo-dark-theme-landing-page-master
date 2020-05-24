@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/button.scss'
 
-const Button = (props) => {
+const Button1 = (props) => {
     return (
         <div className="buttonContainer">
             <h3>{props.buttonText}</h3>
@@ -9,4 +9,4 @@ const Button = (props) => {
     )
 }
 
-export default Button
+export default Button1

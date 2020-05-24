@@ -8,7 +8,8 @@
         font-size: 2rem;
         font-family: $Open;
         padding-top: 3rem;
-        width: 60rem;
+        min-width: 40rem;
+        max-width: 70rem;
     }
 }
 
