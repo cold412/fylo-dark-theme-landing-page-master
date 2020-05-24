@@ -1,0 +1,37 @@
+@import '_var';
+
+
+
+nav{
+    display: grid;
+    grid-column: 1fr 1f;
+    grid-template-rows: 1fr;
+    padding: 4rem 4rem;
+    align-items: center;
+
+    @include mobile{
+        padding: 2rem 2rem;
+    }
+    .nav__logo{
+        grid-column-start: 1;
+        img{
+            width: 10rem;
+        }
+    }
+    .nav__right{
+        grid-column-start: 2;
+        justify-self: end;
+        color: $White;
+        ul{
+            display: flex;
+            li{
+                    list-style: none;
+                    font-family: $Open;
+                    font-size: 1.2rem;
+                    padding-left: 2rem;
+                a{
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 @import '../src/styles/_var';
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 *{
   padding: 0;
@@ -11,4 +11,11 @@
   *::before{
     box-sizing: inherit;
   }
+}
+
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: $DarkBlueIntro;
 }
