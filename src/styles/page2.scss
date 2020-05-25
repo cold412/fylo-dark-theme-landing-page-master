@@ -1,0 +1,13 @@
+@import '_var';
+
+.page2__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $DarkBlueMain;
+
+
+    @include mobile{
+        grid-template-columns: 1fr;
+    }
+    
+}

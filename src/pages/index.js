@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar"
 import Page1 from "./Page1"
+import Page2 from "./Page2"
 import '../styles.scss'
 import '../styles/index.scss'
 
@@ -13,6 +14,9 @@ const index = () => {
       <Page1 />
       </div>
 
+      <div className="pate2Cont">
+      <Page2 />
+      </div>
     </div>
   )
 }
