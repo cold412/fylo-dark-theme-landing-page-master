@@ -1,0 +1,35 @@
+@import '_var';
+
+
+.page3__container{
+    background-color: $DarkBlueMain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 10rem;
+
+    .page3__left{
+        justify-self: right;
+    }
+
+    .page3__right{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+
+        .MainHeader{
+            h1{
+                text-align: left;
+            }
+        }
+
+        .MainText{
+            p{
+                text-align: left;
+            }
+        }
+    }
+
+}
+
+
