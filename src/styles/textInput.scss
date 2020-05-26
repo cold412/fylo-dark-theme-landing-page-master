@@ -1,0 +1,13 @@
+@import '_var';
+
+.textContainer{
+    width: 40rem;
+    .InputTest{
+        padding-left: 3rem;
+        color: gray;
+    min-width: 35rem;
+    height: 5rem;
+    border-radius: 3rem;
+    background-color: $White;
+    }
+}

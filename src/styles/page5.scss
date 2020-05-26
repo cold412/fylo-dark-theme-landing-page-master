@@ -1,0 +1,34 @@
+@import '_var';
+
+.page5Cont2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: $DakkBlueTest;
+    width: 60vw;
+    min-width: 60vw;
+    margin: 0 auto;
+    padding-top: 3rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    .MainHeader{
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+
+    .MainText {
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .buttonCont{
+        display: flex;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        h3{
+            font-size: 1.7rem;
+        }   
+    }
+}
