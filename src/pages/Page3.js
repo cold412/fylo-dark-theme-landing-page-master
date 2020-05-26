@@ -1,6 +1,7 @@
 import React from 'react'
 import MainHeader from '../pages/components/MainHeader'
 import MainText from '../pages/components/MainText'
+import Title from '../pages/components/Title'
 import mainImg from '../img/illustration-stay-productive.png'
 import '../styles/page3.scss'
 
@@ -17,6 +18,7 @@ function Page3() {
   storage needs." />
       <MainText   text="Securely share files and folders with friends, family and colleagues for live collaboration. No email 
   attachments required." />
+        <Title />
             </div>
         </div>
     )

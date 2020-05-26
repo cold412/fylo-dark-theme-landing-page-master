@@ -1,0 +1,20 @@
+@import '_var';
+
+.title_container{
+    display: flex;
+    padding-top: 3rem;
+
+    img{
+        padding-left: 1rem;
+    align-items: flex-end;
+        width: 3.5rem;
+        display: flex;
+    border-bottom: solid 1px $Cyan;
+    }
+    p{
+        color: $Cyan;
+        font-size: 2rem;
+        font-family: $Open;
+    border-bottom: solid 1px $Cyan;
+    }
+}
