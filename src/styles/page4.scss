@@ -4,7 +4,17 @@
 .page4__container{
     background-color: $DarkBlueMain;
     padding-top: 20rem;
+    padding-bottom: 20rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+
+    @include mobile{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    }
+
 }
