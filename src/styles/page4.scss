@@ -1,0 +1,10 @@
+@import '_var';
+
+
+.page4__container{
+    background-color: $DarkBlueMain;
+    padding-top: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}

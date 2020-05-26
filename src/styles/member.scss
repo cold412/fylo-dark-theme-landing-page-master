@@ -1,0 +1,19 @@
+@import '_var';
+
+
+.member__container{
+    display: flex;
+    font-family: $Rale;
+    color: $White;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 2rem;
+    .member__left{
+        padding-right: 1rem;
+    }
+    img{
+        width: 4rem;
+        border-radius: 50%;
+    }
+}
+

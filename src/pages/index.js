@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import Page1 from "./Page1"
 import Page2 from "./Page2"
 import Page3 from "./Page3"
+import Page4 from "./Page4"
 import '../styles.scss'
 import '../styles/index.scss'
 
@@ -20,6 +21,9 @@ const index = () => {
       </div>
       <div className="page3Cont">
       <Page3 />
+      </div>
+      <div className="page4Cont">
+      <Page4 />
       </div>
     </div>
   )

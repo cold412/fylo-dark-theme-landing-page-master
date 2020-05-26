@@ -1,0 +1,19 @@
+@import '_var';
+
+.pate4Cont{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: $DakkBlueTest;
+    
+    .MainText{
+        p{
+            text-align: left;
+            padding-bottom: 2rem;
+            font-size: 1.5rem;
+        min-width: 30rem;
+        }
+    }
+}
