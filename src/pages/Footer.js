@@ -1,10 +1,16 @@
 import React from 'react'
 import '../styles/footer.scss'
+import logo from '../img/logo.svg'
 
 function Footer() {
     return (
         <div className="footer__container">
-            <h1>FooterTest</h1>
+
+
+            <div className="footer__logo">
+            <img src={logo} alt="logo"/>
+            </div>
+
         </div>
     )
 }

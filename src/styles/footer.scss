@@ -1,5 +1,10 @@
 @import '_var';
 
 .footer__container{
-    background-color: red;
+    background-color: $DarkBlueFooter;
+
+
+    .footer__logo{
+        padding-top: 5rem;
+    }
 }
