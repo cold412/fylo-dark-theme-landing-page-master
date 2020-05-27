@@ -2,9 +2,18 @@
 
 .footer__container{
     background-color: $DarkBlueFooter;
+    height: 22vh;
 
 
     .footer__logo{
-        padding-top: 5rem;
+        padding-top: 17rem;
+        padding-left: 4rem;
     }
+}
+
+
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    background-color: $DarkBlueFooter;
 }
