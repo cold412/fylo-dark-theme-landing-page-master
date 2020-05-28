@@ -19,30 +19,38 @@ function Footer() {
         </div>
 
         <div className="footer2">
-            <div className="1">
+            <div className="footer2__box1">
             <img src={location} alt=""/>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, harum adipisci! Ad molestiae quae illum optio recusandae repellendus rem atque!</p>
             </div>
-            <div className="2">
+            <div className="footer2__box2">
+                <div className="box2__left">
+
             <img src={phone} alt=""/>
             <p>+1-543-213-4567</p>
+
+                </div>
+
+                <div className="box2__right">
+
             <img src={email} alt=""/>
             <p>example@fylo.com</p>
+                </div>
             </div>
-            <div className="3">
-                <h4>About Us</h4>
-                <h4>Jobs</h4>
-                <h4>Press</h4>
-                <h4>Blog</h4>
+            <div className="footer2__box3">
+                <h5>About Us</h5>
+                <h5>Jobs</h5>
+                <h5>Press</h5>
+                <h5>Blog</h5>
             </div>
-            <div className="4">
+            <div className="footer2__box4">
 
-                <h4>Contact Us</h4>
-                <h4>Terms</h4>
-                <h4>Privacy</h4>
+                <h5>Contact Us</h5>
+                <h5>Terms</h5>
+                <h5>Privacy</h5>
 
             </div>
-            <div className="5">
+            <div className="footer2__box5">
             <a href="" class="fa fa-lg fa-facebook-official"></a>
           <a href="" class="fa fa-twitter-square"></a>
           <a href="" class="fa fa-instagram"></a>

@@ -6,7 +6,7 @@
 
 
     .footer__logo{
-        padding-top: 17rem;
+        padding-top: 20rem;
         padding-left: 4rem;
     }
 }
@@ -16,4 +16,74 @@
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     background-color: $DarkBlueFooter;
+    height: 25vh;
+    align-items: flex-start;
+    justify-items: center;
+    color: $White;
+    padding-top: 10rem;
+
+
+    .footer2__box1{
+        display: flex;
+        padding-left: 4rem;
+        img{
+            width: 2rem;
+            height: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+            font-family: $Rale;
+            padding-left: 2rem
+        }
+    }
+
+    .footer2__box2{
+        display: flex;
+            flex-direction: column;
+        .box2__right{
+            padding-top: 2rem;
+        }
+
+        .box2__left, .box2__right{
+            display: flex;
+            flex-direction: row;
+            p{
+                padding-left: 2rem;
+            font-size: 1.2rem;
+            font-family: $Rale;
+            }
+        }
+    }
+
+
+    .footer2__box3{
+            font-size: 1.2rem;
+            font-family: $Rale;
+            height: 8vh;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+    }
+
+    .footer2__box4{
+
+            font-size: 1.2rem;
+            font-family: $Rale;
+            height: 6vh;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+    }
+
+
+    .footer2__box5{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        a{
+            font-size: 3rem;
+            color: $White;
+            padding-left: 1rem;
+        }
+    }
 }
